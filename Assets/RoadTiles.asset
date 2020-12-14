@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ab4fc4112a56143815cffd791f31fe, type: 3}
+  m_Name: RoadTiles
+  m_EditorClassIdentifier: 
+  tiles: []
+  buildable: 0
+  roadTiles:
+  - tile: {fileID: 11400000, guid: d78a659c045b72c4f9055e2bcdaf5c7a, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 1
+      Right: 1
+      BottomRight: 1
+      BottomLeft: 1
+      Left: 1
+  - tile: {fileID: 11400000, guid: 1cff4ac1b4b0fa144a0465d3253c8f9a, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: 1cff4ac1b4b0fa144a0465d3253c8f9a, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 1cff4ac1b4b0fa144a0465d3253c8f9a, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: 67d111d2f2478e849aa863137799c82f, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: 67d111d2f2478e849aa863137799c82f, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 67d111d2f2478e849aa863137799c82f, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: 9396a948554a21646a1440ea4f42db53, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: cb73012405cbb0d488f7ba90aff4af62, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 1
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: 5c09b0d75e1b2f340b423dda2ae7a332, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 1
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 3d28870fe12f10544a0fcb005c21dc2d, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 1
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: 68732efeda68bb54797cc65bccac423f, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: e387d55e72f0fd1499f3044c8746bc1d, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: cb43bcc5bbb6a17468a8ae6d217069af, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: a8810b088f77f644ab11c95210cde2d2, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: 1ad91ffe64c20bf4eaae4c9eab4291bc, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 008cf23554895c149a9751b1da8d7906, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: 157b165db536a534d922bb2028de9b0f, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 1
+  - tile: {fileID: 11400000, guid: 9f9d87671c9d7e0468e0882827136416, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 1
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 0fac6c18427fb7341a0bb7f239bb9c25, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: f097a93671959b146bcd207cfbcf75f3, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 12343811479809342968c989ad8ac08e, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 12343811479809342968c989ad8ac08e, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 12343811479809342968c989ad8ac08e, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 8e27677f196069e4eb094d7bfa23ae1b, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 1
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: d30f943198f178e4fae3dcbfac80dc99, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 1
+  - tile: {fileID: 11400000, guid: 2dd76be72bcc4c2438218756842a3012, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 1
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 0
+  - tile: {fileID: 11400000, guid: 9768aa0aa838b2c43b9f5eb80f5655e8, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: b86919d8cfbb38145af3a6d9bc84dce8, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: f912e4144d95d454fb9a09e654d2affc, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 1
+  - tile: {fileID: 11400000, guid: f912e4144d95d454fb9a09e654d2affc, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: f912e4144d95d454fb9a09e654d2affc, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 1
+      Left: 1
+  - tile: {fileID: 11400000, guid: f1bd04dc9b9a6d9499a52977255583fd, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 1
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: f1bd04dc9b9a6d9499a52977255583fd, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 1
+      BottomRight: 0
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: f1bd04dc9b9a6d9499a52977255583fd, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 0
+      Right: 1
+      BottomRight: 1
+      BottomLeft: 0
+      Left: 1
+  - tile: {fileID: 11400000, guid: cac85c1e1a0fbf647817683b9832f0ba, type: 2}
+    connections:
+      TopLeft: 0
+      TopRight: 1
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 1
+      Left: 0
+  - tile: {fileID: 11400000, guid: d9ec9bcd4445c704cb59d83d837c1de8, type: 2}
+    connections:
+      TopLeft: 1
+      TopRight: 0
+      Right: 0
+      BottomRight: 1
+      BottomLeft: 1
+      Left: 0
